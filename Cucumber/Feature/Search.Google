@@ -1,0 +1,10 @@
+Feature: Google Testing
+
+
+Scenario: Google  Search Functionality
+
+    Given I Write Someting "Bahamas"
+
+    When Click google Search Button 
+
+    Then I Find Something 
